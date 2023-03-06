@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Bebas+Neue&family=Gajraj+One&family=Josefin+Sans:wght@500&family=Jua&family=Phudu:wght@300;400&family=Prompt&family=Tilt+Prism&display=swap');
+
+* {
+    border: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 60px;
+    height: 30px;
+}
+
+.cbc-logo {
+    color: white;
+    font-size: 15px;
+}
+
+.cbc-nav nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+.cbc-nav a {
+    color: white;
+}
+
+.cbc-nav i {
+    color: white;
+}
+
+.main-nav a {
+    margin-right: 7px;
+}
+
+.header-left {
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+.header-left a {
+    color: white;
+}
+
+.search-icon {
+    margin-right: 30px;
+}
+
+.background {
+    background-image: url(images/Sozinha-2020_destaque.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    position: absolute;
+    z-index: -1;
+}
+
+main {
+    color: white;
+}
+
+footer h3 {
+    color: white;
+}
+
+.volume {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(22, 22, 24);
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 20px;
+    top: 70px;
+}
+
+.volume i {
+
+    color: rgb(255, 255, 255);
+}
+
+.ttl-check i {
+    color: rgb(64, 148, 216);
+}
+
+.ttl-check {
+    margin-top: 280px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.ttl-check h1 {
+    font-size: 46px;
+}
+
+.ttl-check h3 {
+    font-size: 17px;
+}
+
+.buttons {
+    margin-left: 45px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.main-button button {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
+
+.main-button h2 {
+    font-size: 20px;
+}
+
+.secundary-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.secundary-buttons button {
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    background-color: rgba(68, 61, 61, 0.726);
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+
+    gap: 40px;
+    font-size: 14px;
+
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+
+.h3-1 {
+
+}
+
+.selection {
+    height: 3px;
+    background-color: white;
+}
